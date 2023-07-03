@@ -9,5 +9,13 @@ int main()
     cout<<x<<endl;
     cout<<std::dec;
     cout<<x;
+    cout<<std::showbase;
+    cout<<std::hex;
+    cout<<x<<endl;
+    cout<<std::showpos;
+    cout<<x<<endl;
+    cout<<std::uppercase;
+    cout<<x<<endl;
     return 0;
+
 }
